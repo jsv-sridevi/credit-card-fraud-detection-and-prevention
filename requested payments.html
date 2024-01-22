@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Request Payment</title>
+<link rel="stylesheet" href="requested payments.css"> </head>
+<body>
+<div class="container">
+    <h1>Request Payment</h1>
+  <form action="#" method="post">
+  <div class="form-group">
+      <label for="amount">Amount:</label>
+    <input type="number" min="1" id="amount" name="amount" required>
+  </div>
+  <div class="form-group"> 
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile" required>
+  </div>
+  <div class="form-group">
+    <label for="exemptRules">Exempt Rules:</label>
+    <label for="yes">
+    <input type="radio" id="yes" name="exemptRules" value="yes">
+    Yes</label>
+    <label for="no">
+    <input type="radio" id="no" name="exemptRules" value="no">
+    No</label>
+   </div>
+    <button type="submit">Request Payment</button>
+  </form>
+</div>
+</body>
+</html>

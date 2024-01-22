@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2-Factor Authentication</title>
+<link rel="stylesheet" href="two-factor authentication.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Two-Factor Authentication</h1>
+
+    <form id="verification-form">
+      <p>Enter the OTPs sent to your email and mobile number:</p>
+      <div class="input-group">
+        <label for="email-otp">Email OTP:</label>
+        <input type="text" id="email-otp" required>
+      </div>
+      <div class="input-group">
+        <label for="mobile-otp">Mobile OTP:</label>
+        <input type="text" id="mobile-otp" required>
+      </div>
+      <button type="submit">Verify</button>
+    </form>
+
+    <div id="status-message"></div>
+  </div>
+
+  <script src="2f javascript.js"></script> </body>
+</html>
